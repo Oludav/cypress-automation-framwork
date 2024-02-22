@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       
     },
-    testIsolation: false
+    testIsolation: false,
+    specPattern: "cypress/e2e//*.{js,feature}"
   },
 });
